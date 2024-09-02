@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("results/svgfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Applying the custom font with Times New Roman as the default fallback */
+body {
+  font-family: "MyCustomFont", "Times New Roman", serif;
+}
+
+.title,
+.lower-case-letters {
+  font-size: 36px;
+}
+
+.paragraph {
+  font-size: 24px;
+}
